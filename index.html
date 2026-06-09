@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sora Lips | High Shine, Zero Stick Peptide Lip Gloss</title>
+    <meta name="description" content="Discover Sora Lips, the ultimate nourishing peptide lip gloss. High shine, zero stickiness, 100% vegan. Get early access to the exclusive launch today.">
+    <!-- Google Fonts: Playfair Display (editorial serif) and Outfit (modern clean sans-serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header" id="site-header">
+        <div class="header-container">
+            <nav class="nav-left" aria-label="Primary Navigation Left">
+                <a href="#formula" class="nav-link">Formula</a>
+                <a href="#gallery" class="nav-link">Shades</a>
+                <a href="#benefits" class="nav-link">Benefits</a>
+            </nav>
+            <div class="brand-logo">
+                <a href="#" class="logo-link">sora lips</a>
+            </div>
+            <div class="nav-right">
+                <a href="#waitlist" class="btn btn-nav-cta">Get Early Access</a>
+                <button class="cart-toggle-btn" id="cart-toggle" aria-label="Open Cart">
+                    <svg class="cart-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-count" id="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <!-- Background Video Loop with Image Fallback -->
+            <div class="hero-video-container">
+                <video autoplay loop muted playsinline class="hero-video" poster="assets/macro-texture.png">
+                    <!-- Standard aesthetic pink liquid loop video -->
+                    <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c054e1896885d7553caee0e1cf791d05&profile_id=139&oauth2_token_id=57447761" type="video/mp4">
+                    <!-- Backup source (cosmetics fluid texture) -->
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-liquid-rose-gold-texture-42337-large.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
+
+            <div class="hero-content">
+                <span class="hero-subtitle">the new standard of shine</span>
+                <h1 class="hero-title">High Shine,<br>Zero Stick</h1>
+                <p class="hero-description">
+                    Meet the peptide-infused lip treatment that works like a nourishing balm and shines like a premium gloss. Cloud-like cushion, non-sticky feel, and 12 hours of locked-in dew.
+                </p>
+                <div class="hero-actions">
+                    <a href="#waitlist" class="btn btn-primary">Get Early Access to the Launch</a>
+                    <a href="#gallery" class="btn btn-secondary">Explore the Shades</a>
+                </div>
+            </div>
+
+            <!-- Scroll indicator -->
+            <div class="scroll-indicator">
+                <span class="scroll-text">scroll to reveal</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Value Proposition Section -->
+        <section class="benefits-section" id="benefits">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">the sora standard</span>
+                    <h2 class="section-title">Nourishment Meets Radiance</h2>
+                    <p class="section-description">Formulated to feed your lips while delivering an editorial, wet-look glass finish.</p>
+                </div>
+
+                <div class="benefits-grid">
+                    <!-- Block 1: Clean & Nourishing -->
+                    <div class="benefit-card">
+                        <div class="benefit-icon-wrapper">
+                            <!-- Custom drop/moisture SVG -->
+                            <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.2" fill="none">
+                                <path d="M12 22a7 7 0 0 0 7-7c0-4.3-7-13-7-13S5 10.7 5 15a7 7 0 0 0 7 7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title">Nourishing Peptides</h3>
+                        <p class="benefit-text">Plumps the lip barrier, visibly smoothing fine lines and locking in intense moisture for full, healthy-looking lips.</p>
+                    </div>
+
+                    <!-- Block 2: Hyaluronic Acid -->
+                    <div class="benefit-card">
+                        <div class="benefit-icon-wrapper">
+                            <!-- Custom chemistry/science SVG -->
+                            <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.2" fill="none">
+                                <circle cx="12" cy="5" r="3"></circle>
+                                <circle cx="5" cy="19" r="3"></circle>
+                                <circle cx="19" cy="19" r="3"></circle>
+                                <line x1="8.5" y1="16.5" x2="10.5" y2="7.5"></line>
+                                <line x1="15.5" y1="16.5" x2="13.5" y2="7.5"></line>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title">Hyaluronic Hydration</h3>
+                        <p class="benefit-text">Infused with micro-sized hyaluronic acid spheres that draw in water, providing immediate, cushiony comfort.</p>
+                    </div>
+
+                    <!-- Block 3: High Shine Finish -->
+                    <div class="benefit-card">
+                        <div class="benefit-icon-wrapper">
+                            <!-- Custom sparkle/shine SVG -->
+                            <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.2" fill="none">
+                                <path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M5.6 18.4l2.8-2.8M15.6 8.4l2.8-2.8"></path>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title">High-Gloss Finish</h3>
+                        <p class="benefit-text">Delivers an editorial, light-refracting wet finish with a subtle translucent tint. Beautiful on its own or layered.</p>
+                    </div>
+
+                    <!-- Block 4: Featherweight Feel -->
+                    <div class="benefit-card">
+                        <div class="benefit-icon-wrapper">
+                            <!-- Custom cloud/feather SVG -->
+                            <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.2" fill="none">
+                                <path d="M18 10a5 5 0 0 0-9.5-2.2 4 4 0 0 0-6.1 4.9A4.5 4.5 0 0 0 6.5 22h11.5a4.5 4.5 0 0 0 0-9z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title">Featherweight Comfort</h3>
+                        <p class="benefit-text">Absolutely zero stickiness. Feels like a lightweight cloud sitting on your lips, keeping them soft, bouncy, and free.</p>
+                    </div>
+
+                    <!-- Block 5: Vegan & Cruelty Free -->
+                    <div class="benefit-card">
+                        <div class="benefit-icon-wrapper">
+                            <!-- Custom leaf/nature SVG -->
+                            <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="1.2" fill="none">
+                                <path d="M2 22c0-5.5 4.5-10 10-10h10v10H2z"></path>
+                                <path d="M12 12c0-5.5 4.5-10 10-10"></path>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title">Vegan & Cruelty-Free</h3>
+                        <p class="benefit-text">100% clean, vegan, gluten-free, and certified cruelty-free. Good for your skin, gentle on the planet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product & Shade Gallery -->
+        <section class="gallery-section" id="gallery">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">the collection</span>
+                    <h2 class="section-title">The Lip Peptide Gloss</h2>
+                    <p class="section-description">A spectrum of nourishing tints designed for daily wear. Click on a shade to preview.</p>
+                </div>
+
+                <div class="product-showcase">
+                    <!-- Left: Interactive Image Preview -->
+                    <div class="showcase-visual">
+                        <div class="accent-glow" id="showcase-glow"></div>
+                        <img id="active-product-img" src="assets/lip-gloss-pink.png" alt="Sora Peptide Gloss in Ribbon (Soft Baby Pink)">
+                    </div>
+
+                    <!-- Right: Product Details and Shade Switcher -->
+                    <div class="showcase-details">
+                        <div class="product-badge">NEW FORMULA</div>
+                        <h3 class="product-name">Sora Peptide Lip Gloss</h3>
+                        <div class="product-price">$20.00</div>
+                        <p class="product-desc" id="active-shade-desc">
+                            A glaze of sheer baby pink that cushions lips in soft, dewy moisture. Restores hydration, plumps instantly, and leaves a glaze of high-shine color.
+                        </p>
+
+                        <!-- Active Shade Selector Label -->
+                        <div class="shade-label">
+                            SHADE: <span id="active-shade-name">Ribbon</span> 
+                            <span class="shade-color-desc">(Soft Baby Pink)</span>
+                        </div>
+
+                        <!-- Shade Selector Buttons -->
+                        <div class="shade-selector" role="radiogroup" aria-label="Choose a shade">
+                            <button class="shade-btn active" data-shade="pink" data-name="Ribbon" data-desc="A glaze of sheer baby pink that cushions lips in soft, dewy moisture. Restores hydration, plumps instantly, and leaves a glaze of high-shine color." data-img="assets/lip-gloss-pink.png" data-bg="#fbf1f2" aria-checked="true" aria-label="Ribbon - Soft Baby Pink">
+                                <span class="shade-swatchSwatch" style="background-color: #F8C3CD;"></span>
+                            </button>
+                            <button class="shade-btn" data-shade="peach" data-name="Peach Glow" data-desc="A warm, sheer coral-beige tint that warms up your natural lip tone. Gives a sunny, dewy shimmer without any heavy stickiness." data-img="assets/lip-gloss-peach.png" data-bg="#faf1e9" aria-checked="false" aria-label="Peach Glow - Coral Beige">
+                                <span class="shade-swatchSwatch" style="background-color: #E2B29F;"></span>
+                            </button>
+                            <button class="shade-btn" data-shade="rose" data-name="Rose Syrup" data-desc="A rich, translucent berry rose color that adds depth and a juicy flush to your lips. Intensely hydrating with deep repair peptides." data-img="assets/lip-gloss-rose.png" data-bg="#f3e8eb" aria-checked="false" aria-label="Rose Syrup - Berry Rose">
+                                <span class="shade-swatchSwatch" style="background-color: #A96E75;"></span>
+                            </button>
+                        </div>
+
+                        <!-- Purchase actions -->
+                        <div class="purchase-box">
+                            <div class="qty-selector">
+                                <button type="button" class="qty-btn" id="qty-minus" aria-label="Decrease quantity">-</button>
+                                <span id="qty-count">1</span>
+                                <button type="button" class="qty-btn" id="qty-plus" aria-label="Increase quantity">+</button>
+                            </div>
+                            <button type="button" class="btn btn-primary btn-add-cart" id="add-to-cart-btn">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Behind the Scenes & Texture Gallery -->
+                <div class="bts-gallery">
+                    <div class="bts-card col-span-2">
+                        <img src="assets/macro-texture.png" alt="Macro lip gloss texture close-up, showing bubbles and light refraction" class="bts-img">
+                        <div class="bts-label">
+                            <span class="bts-tag">Formula</span>
+                            <h4>Dewy Glass Texture</h4>
+                        </div>
+                    </div>
+                    <div class="bts-card">
+                        <div class="swatch-showcase-card">
+                            <div class="swatch-wave" style="background: linear-gradient(135deg, #F8C3CD 0%, #E2B29F 50%, #A96E75 100%);"></div>
+                            <div class="swatch-card-content">
+                                <span class="bts-tag">Swatches</span>
+                                <h4>Adapts to all skin tones</h4>
+                                <p>Our sheer tints blend with your natural lip color to create a unique custom flush.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Waitlist Registration and Closing Section -->
+        <section class="waitlist-section" id="waitlist">
+            <div class="section-container waitlist-container">
+                <div class="waitlist-card">
+                    <span class="waitlist-tag">exclusive launch access</span>
+                    <h2 class="waitlist-title">Join the VIP Waitlist for 15% Off</h2>
+                    <p class="waitlist-description">
+                        Sora Lips launches in limited quantities. Join the waitlist to receive early checkout privileges, complimentary custom lip liner swatches, and 15% off your first purchase.
+                    </p>
+
+                    <form class="waitlist-form" id="waitlist-form" novalidate>
+                        <div class="form-grid">
+                            <div class="input-group">
+                                <input type="text" id="vip-name" name="name" required placeholder=" ">
+                                <label for="vip-name">Your name</label>
+                                <span class="error-msg" id="name-error">Please enter your name</span>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" id="vip-email" name="email" required placeholder=" ">
+                                <label for="vip-email">Email address</label>
+                                <span class="error-msg" id="email-error">Please enter a valid email</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Get Early Access</span>
+                            <svg class="arrow-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="1.5" fill="none">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Slide-out Cart Drawer -->
+    <div class="cart-drawer-overlay" id="cart-overlay"></div>
+    <div class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+        <div class="cart-drawer-header">
+            <h3 id="cart-title">Your Bag (<span id="cart-drawer-count">0</span>)</h3>
+            <button class="cart-close-btn" id="cart-close" aria-label="Close Cart">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+
+        <div class="cart-drawer-items" id="cart-items-container">
+            <!-- Items injected dynamically by app.js -->
+            <div class="empty-cart-msg" id="empty-cart-msg">
+                <p>Your bag is empty.</p>
+                <a href="#gallery" class="btn btn-secondary btn-shop-now">Shop The Collection</a>
+            </div>
+        </div>
+
+        <div class="cart-drawer-footer" id="cart-footer">
+            <div class="cart-summary-line">
+                <span>Shipping</span>
+                <span class="shipping-value">Complimentary</span>
+            </div>
+            <div class="cart-summary-line total-line">
+                <span>Subtotal</span>
+                <span class="total-value" id="cart-subtotal">$0.00</span>
+            </div>
+            <button class="btn btn-primary btn-checkout" id="checkout-btn">Continue to Checkout</button>
+            <p class="checkout-note">Duties and taxes calculated at checkout.</p>
+        </div>
+    </div>
+
+    <!-- Success Toast Notification -->
+    <div class="toast-notification" id="toast-notification" role="alert" aria-live="assertive">
+        <span class="toast-message" id="toast-message">Added to bag!</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">sora lips</a>
+                <p class="footer-tagline">clean beauty. high radiance. dewy luxury.</p>
+            </div>
+            <div class="footer-links-grid">
+                <div class="footer-col">
+                    <h5>Shop</h5>
+                    <ul>
+                        <li><a href="#gallery">Peptide Gloss</a></li>
+                        <li><a href="#gallery">New Shades</a></li>
+                        <li><a href="#gallery">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Formula</h5>
+                    <ul>
+                        <li><a href="#benefits">Ingredients</a></li>
+                        <li><a href="#benefits">Sustainability</a></li>
+                        <li><a href="#benefits">Cruelty-Free</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sora Lips. All rights reserved. Designed for clean, hydrated lips.</p>
+            <div class="footer-socials">
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="TikTok">TikTok</a>
+                <a href="#" aria-label="Pinterest">Pinterest</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript Application -->
+    <script src="app.js"></script>
+</body>
+</html>
